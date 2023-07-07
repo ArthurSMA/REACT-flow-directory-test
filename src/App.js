@@ -1,11 +1,12 @@
-import "./layout/styles.css";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
+import React from 'react';
+
+import Login from './assets/features/Login'
+// import Home from './assets/features/Home'
 
 export default function App() {
-  return (
-    <div className="App">
-      <Home />
-    </div>
-  );
+	return (
+		<>
+			<Login />
+		</>
+	)
 }
